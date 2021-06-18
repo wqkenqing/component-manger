@@ -1,0 +1,18 @@
+spring:
+  kafka:
+    consumer:
+      group-id: topic-create
+      enable-auto-commit: false
+      auto-offset-reset: earliest
+      max-poll-records: 2000
+    producer:
+      retries: 3
+      batch-size: 16384
+      buffer-memory: 33554432
+      linger: 10
+    bootstrap-servers: 192.168.10.217:9092
+springfox:
+  documentation:
+    enabled: true
+
+

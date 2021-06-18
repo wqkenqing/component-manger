@@ -1,2 +1,3 @@
-# component-manger
-数据组件管理
+# component-manager
+
+manage component
